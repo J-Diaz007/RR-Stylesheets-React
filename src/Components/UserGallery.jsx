@@ -1,9 +1,15 @@
 import UserCard from './UserCard/UserCard.jsx'
 
+const galleryStyle = {
+    display: 'flex',
+    flexWrap: 'wrap',
+    justifyContent: 'space-around',
+    paddingTop: '50px'
+}
+
 export default function UserGallery() {
     return (
-        <div>
-            <h1>UserGallery</h1>
+        <div style={galleryStyle}>
             <UserCard />
             <UserCard />
             <UserCard />
